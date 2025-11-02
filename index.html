@@ -76,6 +76,7 @@
       margin-top: 40px;
       display: flex;
       gap: 25px;
+      position: relative;
     }
 
     .social-links a {
@@ -83,6 +84,29 @@
       font-size: 2rem;
       transition: 0.3s;
       text-decoration: none;
+      position: relative;
+    }
+
+    .social-links a::after {
+      content: attr(data-username);
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.6);
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      opacity: 0;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+      color: #fff;
+      text-shadow: 0 0 10px #ff0000;
+    }
+
+    .social-links a:hover::after {
+      opacity: 1;
+      bottom: -40px;
     }
 
     .social-links a:hover {
@@ -115,9 +139,9 @@
   <a href="https://youtube.com/@starkundanyadav?si=2nmtzt0eO2C6ZNe7" class="button" target="_blank">🎥 Subscribe Now</a>
 
   <div class="social-links" aria-label="Social links">
-    <a href="https://youtube.com/@starkundanyadav" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-    <a href="https://instagram.com/ahiraan_brand_23" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://facebook.com/AhiraanKundanBabu" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://youtube.com/@starkundanyadav" target="_blank" title="YouTube" data-username="@StarKundanYadav"><i class="fab fa-youtube"></i></a>
+    <a href="https://instagram.com/ahiraan_brand_23" target="_blank" title="Instagram" data-username="@ahiraan_brand_23"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/AhiraanKundanBabu" target="_blank" title="Facebook" data-username="Ahiraan Kundan Babu"><i class="fab fa-facebook"></i></a>
   </div>
 
   <footer>© 2025 Star Kundan Yadav | All Rights Reserved</footer>

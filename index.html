@@ -4,65 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Star Kundan Yadav | Official Website</title>
+
+  <!-- FontAwesome icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    body {
       font-family: "Poppins", sans-serif;
       background: linear-gradient(135deg, #000000, #ff0000);
-      color: #fff;
-      text-align: center;
+      color: white;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      text-align: center;
     }
-    h1 {font-size: 2.5em; margin-bottom: 10px;}
-    p {font-size: 1.1em; margin-bottom: 30px;}
+    h1 {
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
     .subscribe-btn {
       background-color: #ff0000;
-      color: white;
+      color: #fff;
       padding: 12px 30px;
       border: none;
       border-radius: 30px;
       font-size: 1.2em;
+      margin-top: 25px;
       cursor: pointer;
       transition: 0.3s;
     }
-    .subscribe-btn:hover {background-color: #cc0000; transform: scale(1.05);}
-    .social-links {margin-top: 30px;}
+    .subscribe-btn:hover {
+      background-color: #cc0000;
+      transform: scale(1.05);
+    }
+    .social-links {
+      margin-top: 40px;
+    }
     .social-links a {
-      color: #fff;
+      color: white;
+      font-size: 1.8em;
       margin: 0 15px;
-      font-weight: 600;
-      text-decoration: none;
-      border-bottom: 2px solid transparent;
       transition: 0.3s;
     }
     .social-links a:hover {
       color: #ffcc00;
-      border-bottom: 2px solid #ffcc00;
+      transform: scale(1.2);
     }
     footer {
       position: absolute;
       bottom: 15px;
-      width: 100%;
       font-size: 0.9em;
+      width: 100%;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>STAR KUNDAN YADAV</h1>
+  <h1>⭐ STAR KUNDAN YADAV ⭐</h1>
   <p>Welcome to my Official YouTube Channel Website</p>
 
   <a href="https://youtube.com/@starkundanyadav" target="_blank">
-    <button class="subscribe-btn">🎬 Subscribe Now</button>
+    <button class="subscribe-btn">
+      <i class="fa-brands fa-youtube"></i> Subscribe Now
+    </button>
   </a>
 
   <div class="social-links">
-    <a href="https://www.instagram.com/ahiraan_brand_23" target="_blank">Instagram</a>
-    <a href="https://www.facebook.com/AhiraanKundanBabu" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/ahiraan_brand_23" target="_blank" title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/AhiraanKundanBabu" target="_blank" title="Facebook">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
   </div>
 
   <footer>© 2025 Star Kundan Yadav | All Rights Reserved</footer>

@@ -9,10 +9,11 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(to bottom, #ff0000, #990000);
+      background: linear-gradient(to bottom, #ff0000, #000000);
       color: white;
       text-align: center;
     }
+
     header {
       padding: 30px 10px;
     }
@@ -23,8 +24,24 @@
       border: 3px solid white;
       box-shadow: 0px 0px 10px black;
     }
-    h1 { font-size: 28px; margin-top: 15px; }
-    p { font-size: 16px; margin-bottom: 30px; }
+    h1 {
+      font-size: 28px;
+      margin-top: 15px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .about {
+      background-color: rgba(255, 255, 255, 0.1);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0px 0px 10px black;
+    }
 
     .gallery {
       display: flex;
@@ -39,13 +56,35 @@
       border-radius: 15px;
       border: 2px solid white;
       box-shadow: 0px 0px 10px black;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .social-links {
+      margin: 30px 0;
+    }
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      background-color: #ff0000;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin: 10px;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+    .social-links a:hover {
+      background-color: #cc0000;
     }
 
     footer {
-      background-color: #222;
-      color: #ddd;
+      background-color: #111;
+      color: #ccc;
       padding: 15px;
       font-size: 14px;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -56,12 +95,22 @@
     <p>Welcome to my Official YouTube Channel Website</p>
   </header>
 
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a student and a passionate YouTuber who loves creating and editing content.</p>
+  </section>
+
   <section class="gallery">
     <img src="photo1.jpg" alt="Photo 1">
     <img src="photo2.jpg" alt="Photo 2">
     <img src="photo3.jpg" alt="Photo 3">
     <img src="photo4.jpg" alt="Photo 4">
   </section>
+
+  <div class="social-links">
+    <a href="https://instagram.com/ahiraan_brand_23" target="_blank">Follow on Instagram</a>
+    <a href="https://facebook.com/AhiraanKundanBabu" target="_blank">Visit Facebook</a>
+  </div>
 
   <footer>
     © 2025 Star Kundan Yadav | All Rights Reserved

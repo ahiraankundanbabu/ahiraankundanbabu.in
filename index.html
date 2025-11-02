@@ -1,149 +1,81 @@
-<script src="https://kit.fontawesome.com/4b1f3a1b23.js" crossorigin="anonymous"></script><!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Star Kundan Yadav | Official Website</title>
+  <title>Star Kundan Yadav | Official YouTube Channel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
-      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #000000, #ff0000);
       color: white;
+      text-align: center;
       height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      overflow: hidden;
-      background: linear-gradient(45deg, #000000, #ff0000, #111, #ff2020);
-      background-size: 400% 400%;
-      animation: gradientMove 8s ease infinite;
-      text-align: center;
     }
-
-    @keyframes gradientMove {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
     h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #fff;
-      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000;
-      animation: glow 2s ease-in-out infinite alternate;
+      font-size: 2.5em;
+      margin-bottom: 10px;
     }
-
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff2020, 0 0 40px #ff4040;
-      }
-      to {
-        text-shadow: 0 0 20px #ff4040, 0 0 40px #ff6060, 0 0 60px #ff8080;
-      }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
     }
-
-    h2 {
-      margin: 10px 0 30px;
-      font-weight: 400;
-      color: #f5f5f5;
-    }
-
-    a.button {
-      background: #ff0000;
+    .subscribe-btn {
+      background-color: #ff0000;
       color: white;
-      padding: 14px 32px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-size: 1.1rem;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
       transition: 0.3s;
-      box-shadow: 0 0 20px #ff0000;
     }
-
-    a.button:hover {
-      background: white;
-      color: #ff0000;
-      transform: scale(1.1);
-      box-shadow: 0 0 30px white;
+    .subscribe-btn:hover {
+      background-color: #cc0000;
+      transform: scale(1.05);
     }
-
-    .social-links {
-      margin-top: 40px;
-      display: flex;
-      gap: 25px;
-      position: relative;
-    }
-
-    .social-links a {
-      color: white;
-      font-size: 2rem;
-      transition: 0.3s;
-      text-decoration: none;
-      position: relative;
-    }
-
-    .social-links a::after {
-      content: attr(data-username);
-      position: absolute;
-      bottom: -30px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0,0,0,0.6);
-      padding: 4px 10px;
-      border-radius: 8px;
-      font-size: 0.8rem;
-      opacity: 0;
-      transition: all 0.3s ease;
-      white-space: nowrap;
-      color: #fff;
-      text-shadow: 0 0 10px #ff0000;
-    }
-
-    .social-links a:hover::after {
-      opacity: 1;
-      bottom: -40px;
-    }
-
-    .social-links a:hover {
-      color: #ff0000;
-      transform: scale(1.2);
-      text-shadow: 0 0 20px #ff0000;
-    }
-
     footer {
       position: absolute;
-      bottom: 20px;
-      color: #ccc;
-      font-size: 0.9rem;
+      bottom: 15px;
+      width: 100%;
+      font-size: 0.9em;
     }
-
-    @media (max-width:480px){
-      h1{font-size:2rem;}
-      h2{font-size:1rem;}
-      .social-links a{font-size:1.6rem;}
+    .social-links {
+      margin-top: 30px;
+    }
+    .social-links a {
+      color: white;
+      margin: 0 15px;
+      font-size: 1.8em;
+      transition: 0.3s;
+    }
+    .social-links a:hover {
+      color: #ffcc00;
+      transform: scale(1.2);
     }
   </style>
-
-  <!-- 👇 Font Awesome Icons for Social Media -->
-  <script src="https://kit.fontawesome.com/a2e0e6ad53.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Star Kundan Yadav</h1>
-  <h2>Welcome to my Official YouTube Channel Website</h2>
+  <h1>STAR KUNDAN YADAV</h1>
+  <p>Welcome to my Official YouTube Channel Website</p>
 
-  <a href="https://youtube.com/@starkundanyadav?si=2nmtzt0eO2C6ZNe7" class="button" target="_blank">🎥 Subscribe Now</a>
+  <a href="https://youtube.com/@starkundanyadav" target="_blank">
+    <button class="subscribe-btn"><i class="fa-brands fa-youtube"></i> Subscribe Now</button>
+  </a>
 
-  <div class="social-links" aria-label="Social links">
-    <a href="https://youtube.com/@starkundanyadav" target="_blank" title="YouTube" data-username="@StarKundanYadav"><i class="fab fa-youtube"></i></a>
-    <a href="https://instagram.com/ahiraan_brand_23" target="_blank" title="Instagram" data-username="@ahiraan_brand_23"><i class="fab fa-instagram"></i></a>
-    <a href="https://facebook.com/AhiraanKundanBabu" target="_blank" title="Facebook" data-username="Ahiraan Kundan Babu"><i class="fab fa-facebook"></i></a>
+  <div class="social-links">
+    <a href="https://www.instagram.com/ahiraan_brand_23" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.facebook.com/AhiraanKundanBabu" target="_blank"><i class="fa-brands fa-facebook"></i></a>
   </div>
 
-  <footer>© 2025 Star Kundan Yadav | All Rights Reserved</footer>
+  <footer>
+    © 2025 Star Kundan Yadav | All Rights Reserved
+  </footer>
 </body>
 </html>

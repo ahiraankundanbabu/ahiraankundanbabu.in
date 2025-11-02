@@ -1,23 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Star Kundan Yadav</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000000, #1a0000);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ff0000;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 0 10px #ff0000;
+    }
+    .profile {
+      margin-top: 30px;
+    }
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #ff0000;
+      box-shadow: 0 0 20px #ff0000;
+    }
+    .about {
+      margin: 30px auto;
+      max-width: 600px;
+      background-color: rgba(255, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #ff0000;
+    }
+    h2 {
+      color: #ff4444;
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      border: 2px solid #ff0000;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #ff0000;
+    }
+    .social {
+      margin: 30px 0;
+    }
+    .social a {
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
+      background-color: #ff0000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.3s;
+      display: inline-block;
+    }
+    .social a:hover {
+      background-color: #000;
+      color: #ff0000;
+      box-shadow: 0 0 10px #ff0000;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #111;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>Hello, I’m <b>Kundan Yadav</b>. This is my official website where I share my photos, YouTube links, and updates.</क्या आप हिंदी में हमारे बारे में जानेंगे? यदि हां तो , नीचे 👇 मेरा इंस्टाग्राम 🆔 है उसे फॉलो करे और कुछ भी जानकारी चाहिए तो मैसेज करे||| >
 
-  <h2>About Me</h2>
-  <p>I’m a content creator and editor. Follow me on social media for more updates!</p>
+  <header>AHIRAAN KUNDAN BABU OFFICIAL</header>
 
-  <h2>Gallery</h2>
-  <img src="Profilephoto.jpg" alt="Profile Photo" width="200">
-  <img src="Photo1.jpg" alt="Gallery Photo 1" width="200">
-  <img src="Photo2.jpg" alt="Gallery Photo 2" width="200">
+  <div class="profile">
+    <img src="ProfilePhoto.jpg" alt="Profile Photo" />
+  </div>
 
-  <h2>Follow Me</h2>
-  <a href="https://youtube.com/@starkundanyadav" target="_blank">YouTube</a> |
-  <a href="https://instagram.com/@starkundanyadav" target="_blank">Instagram</a> |
-  <a href="https://facebook.com/@starkundanyadav" target="_blank">Facebook</a>
+  <section class="about">
+    <h2>About</h2>
+    <p>
+      I'm <strong>Ahiraan Kundan Babu</strong> — a student and a passionate YouTuber who loves creating and editing entertainment content.
+    </p>
+  </section>
+
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+    <img src="photo1.jpg" alt="Photo 1" />
+    <img src="photo2.jpg" alt="Photo 2" />
+    <img src="photo3.jpg" alt="Photo 3" />
+    <img src="photo4.jpg" alt="Photo 4" />
+    <img src="photo5.jpg" alt="Photo 5" />
+    <img src="photo6.jpg" alt="Photo 6" />
+    <img src="photo7.jpg" alt="Photo 7" />
+    <img src="photo8.jpg" alt="Photo 8" />
+    <img src="photo9.jpg" alt="Photo 9" />
+    <img src="photo10.jpg" alt="Photo 10" />
+  </div>
+
+  <div class="social">
+    <a href="https://youtube.com/@starkundanyadav" target="_blank">🎥 YouTube</a>
+    <a href="https://instagram.com/ahiraan_brand_23" target="_blank">📸 Instagram</a>
+    <a href="https://facebook.com/AhiraanKundanBabu" target="_blank">📘 Facebook</a>
+  </div>
+
+  <footer>
+    © 2025 Star Kundan Yadav | All Rights Reserved
+  </footer>
+
 </body>
 </html>

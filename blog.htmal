@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maine Apni Pehli Website Kaise Banayi | Ahiraan Kundan Babu</title>
+  <meta name="description" content="Ahiraan Kundan Babu batate hain kaise unhone apni pehli website GitHub Pages par free me banayi.">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+      line-height: 1.8;
+    }
+    header {
+      background: #1f1f1f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌐 Maine Apni Pehli Website Kaise Banayi</h1>
+  </header>
+
+  <div class="container">
+    <p><b>Published by:</b> Ahiraan Kundan Babu</p>
+    <hr>
+
+    <h2>शुरुआत कैसे हुई</h2>
+    <p>Mujhe hamesha se websites banana ka shauk tha. Maine decide kiya ki main apni personal website khud hi design karunga — bina kisi paid hosting ke.</p>
+
+    <h2>GitHub Pages ka use</h2>
+    <p>Mainne <a href="https://github.com" target="_blank">GitHub</a> par account banaya aur apni HTML, CSS files upload ki. Phir GitHub Pages enable karke free hosting mil gayi. Yeh process bilkul simple tha aur free bhi.</p>
+
+    <h2>Website Design</h2>
+    <p>HTML aur CSS se basic structure banaya — Home, About, Gallery aur Contact sections ke saath. Dheere-dheere design improve kiya aur mobile responsive banaya.</p>
+
+    <h2>Google Par Website Ka Naam Dikhna</h2>
+    <p>Google Search Console me site add karke verify kiya, sitemap submit kiya — kuch din baad mera website Google search me aa gaya 🎉</p>
+
+    <h2>Meri Seekh</h2>
+    <p>Website banana mushkil nahi hota, bas patience aur seekhne ka jazba hona chahiye. Ab main apni site par aur naye blogs likh raha hoon!</p>
+
+    <p><b>👉 Next Blog:</b> <a href="blog2.html">YouTube aur Website Ko Kaise Connect Karein</a></p>
+  </div>
+
+  <footer>
+    © 2025 Ahiraan Kundan Babu | All Rights Reserved
+  </footer>
+</body>
+</html>

@@ -1,7 +1,20 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ahiraankundanbabu.github.io/ahiraankundanbabu.in/</loc>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ahiraankundanbabu.github.io/ahiraankundanbabu.in/blog1.html</loc>
+  </url>
+  <url>
+    <loc>https://ahiraankundanbabu.github.io/ahiraankundanbabu.in/blog2.html</loc>
+  </url>
+  <url>
+    <loc>https://ahiraankundanbabu.github.io/ahiraankundanbabu.in/blog3.html</loc>
+  </url>
+  <url>
+    <loc>https://ahiraankundanbabu.github.io/ahiraankundanbabu.in/blog4.html</loc>
   </url>
 </urlset>
